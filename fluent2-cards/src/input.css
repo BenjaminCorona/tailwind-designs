@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+@layer components {
+    .card-style {
+        @apply w-screen h-[65%];
+    }
+
+    .bg-gradient {
+        background: linear-gradient(135deg, #363728 0%, #2f2437 10%, #0f2841 40%, #0f2841 70%, #12382a 100%);
+    }
+}
+*/
+
+@layer components {
+    .bg-img {
+        background-image: url('https://fluent2websitecdn.azureedge.net/cdn/img_hero_fluent.jmxAQlDf.webp');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
