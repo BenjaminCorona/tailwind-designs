@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -565,11 +565,11 @@ video {
 }
 
 .bg-1 {
-  background-image: url('https://scontent.fbjx1-1.fna.fbcdn.net/v/t39.8562-6/409913525_1711434419334233_1933543091645798841_n.jpg?stp=dst-webp&_nc_cat=106&ccb=1-7&_nc_sid=9a942e&_nc_ohc=3lSmnnqa5tkQ7kNvgG3aPnN&_nc_ht=scontent.fbjx1-1.fna&oh=00_AYC4eo6cQB2XZXGX6sTeHFi218L9JKCLPEkqSIC9u3EU_w&oe=665FF4CB');
+  background-image: url('./img/bg-card1.jpg');
 }
 
 .bg-2 {
-  background-image: url('https://scontent.fbjx1-1.fna.fbcdn.net/v/t39.8562-6/432345223_1347271225981511_1722552409031971530_n.jpg?stp=dst-webp&_nc_cat=104&ccb=1-7&_nc_sid=9a942e&_nc_ohc=oPxQ6-rYdgoQ7kNvgF286yk&_nc_ht=scontent.fbjx1-1.fna&oh=00_AYCal47vlnLehVSDtV9n8_EibKRlppIgca7zzli6gCyMng&oe=665FE8D2');
+  background-image: url('./img/bg-card2.jpg');
 }
 
 .title {
