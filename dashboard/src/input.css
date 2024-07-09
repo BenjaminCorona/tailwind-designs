@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .card-style {
+        @apply bg-white grid w-[20rem] h-[10rem] mr-5 mt-5 p-5 rounded-xl;
+    }
+
+    .menu-item-style-active {
+        @apply bg-[#3963ad] mt-4 text-white flex items-center justify-center w-[70%] h-[3rem] rounded-xl;
+    }
+
+    .menu-item-style {
+        @apply mt-4 text-[#3963ad] flex items-center justify-center w-[70%] h-[3rem] hover:bg-[#3963ad] hover:text-white rounded-xl;
+    }
+
+    .svg-style {
+        @apply fill-current ml-4 w-[1rem] h-[1rem];
+    }
+
+    .svg-card-style {
+        @apply flex items-center justify-center w-[3rem] h-[3rem] bg-[#daeff8] rounded-full;
+    }
+}
+
+/* Agrega esto a tu archivo CSS principal */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}

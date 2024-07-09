@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .card-style {
+        @apply w-[45%] h-[25rem] bg-red-400 mt-5 rounded-2xl flex flex-col;
+    }
+}
